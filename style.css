@@ -631,7 +631,7 @@ img {
     display: none;
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 320px) {
     .header-bottom .bottom-left .name {
         font-size: 32px;
     }
