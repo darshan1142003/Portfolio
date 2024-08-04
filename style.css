@@ -598,40 +598,40 @@ img {
         font-size: 20px;
     }
 
-}
-.bottom-left .short-desc {
-    font-size: 18px;
-    padding-right: 20%;
+    .bottom-left .short-desc {
+        font-size: 18px;
+        padding-right: 20%;
+    }
+
+    .about-left img {
+        width: 80%;
+    }
+
+    .about-right .tab-links {
+        margin-right: 30px;
+        font-size: 20px;
+    }
+
+    .about-right .tab-contents ul li,
+    .about-right .tab-contents ul li span {
+        font-size: 18px;
+    }
+
+    #contact .content {
+        flex-wrap: wrap;
+    }
+
+    .content .contact-left,
+    .content .contact-right {
+        flex-basis: 100%;
+    }
+
+    .content .vl {
+        display: none;
+    }
 }
 
-.about-left img {
-    width: 80%;
-}
-
-.about-right .tab-links {
-    margin-right: 30px;
-    font-size: 20px;
-}
-
-.about-right .tab-contents ul li,
-.about-right .tab-contents ul li span {
-    font-size: 18px;
-}
-
-#contact .content {
-    flex-wrap: wrap;
-}
-
-.content .contact-left,
-.content .contact-right {
-    flex-basis: 100%;
-}
-
-.content .vl {
-    display: none;
-}
-
-@media only screen and (max-width: 320px) {
+@media (max-width: 450px) {
     .header-bottom .bottom-left .name {
         font-size: 32px;
     }
@@ -640,35 +640,51 @@ img {
         font-size: 18px;
     }
 
-}
-.bottom-left .short-desc {
-    font-size: 16px;
-    padding-right: 6%;
+    .bottom-left .short-desc {
+        font-size: 16px;
+        padding-right: 6%;
+    }
+
+    .bottom-left .btn-resume {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .section-title .sub-title {
+        font-size: 36px;
+    }
+
+    .section-title .title {
+        font-size: 20px;
+    }
+
+    .about-left img {
+        width: 80%;
+    }
+
+    .about-right .tab-links {
+        margin-right: 25px;
+        font-size: 18px;
+    }
+
+    .about-right .tab-contents ul li,
+    .about-right .tab-contents ul li span {
+        font-size: 16px;
+    }
 }
 
-.bottom-left .btn-resume {
-    font-size: 14px;
-    padding: 8px 12px;
-}
+/* Orientation Adjustments */
+@media (orientation: landscape) {
+    /* Adjustments for landscape orientation */
+    #about .about-left img {
+        width: 90%;
+    }
 
-.section-title .sub-title {
-    font-size: 36px;
-}
+    .header-bottom .bottom-left .name {
+        font-size: 40px;
+    }
 
-.section-title .title {
-    font-size: 20px;
-}
-
-.about-left img {
-    width: 80%;
-}
-
-.about-right .tab-links {
-    margin-right: 25px;
-    font-size: 18px;
-}
-
-.about-right .tab-contents ul li,
-.about-right .tab-contents ul li span {
-    font-size: 16px;
+    .bottom-left .profession {
+        font-size: 20px;
+    }
 }
