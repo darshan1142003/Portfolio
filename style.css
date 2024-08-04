@@ -20,6 +20,7 @@ img {
     color: #120f2d;
 }
 
+/* Header */
 #header .header-top {
     width: 100%;
     background-color: #0d0d1b;
@@ -67,7 +68,7 @@ img {
 }
 
 .nav-menu ul li a:hover::after {
-   width: 100%;
+    width: 100%;
 }
 
 .nav-menu .fa-solid {
@@ -142,6 +143,7 @@ img {
     transform: scale(1.1);
 }    
 
+/* About Section */
 #about {
     width: 100%;
     min-height: 100vh;
@@ -231,7 +233,7 @@ img {
     display: block;
 }
 
-/* services section */
+/* Services Section */
 #service {
     background-color: #f7f7f7;
     padding: 60px 6% 80px;
@@ -272,7 +274,7 @@ img {
     transform: translateY(-10px);
 }
 
-/* portfolio section */
+/* Portfolio Section */
 #portfolio {
     padding: 60px 6%;
     text-align: center;
@@ -354,7 +356,7 @@ img {
     border: 2px solid #fff;
 }
 
-/* testimonials section */
+/* Testimonials Section */
 #testimonial {
     padding: 60px 4% 80px;
     text-align: center;
@@ -423,7 +425,7 @@ img {
     opacity: 0.8;
 }
 
-/* contact section */
+/* Contact Section */
 #contact {
     background-color: #86f51e;
     padding: 60px 8% 40px;
@@ -502,7 +504,7 @@ img {
 .copyright {
     font-size: 16px;
     font-weight: 500;
-    margin-top: 60px
+    margin-top: 60px;
 }
 
 .copyright a {
@@ -514,8 +516,8 @@ img {
     color: #fff;
 }
 
-/* responsive design */
-@media (max-width:900px) {
+/* Responsive Design */
+@media (max-width: 900px) {
     .nav-menu .fa-solid {
         display: block;
         color: #86f51e;
@@ -675,7 +677,6 @@ img {
 
 /* Orientation Adjustments */
 @media (orientation: landscape) {
-    /* Adjustments for landscape orientation */
     #about .about-left img {
         width: 90%;
     }
