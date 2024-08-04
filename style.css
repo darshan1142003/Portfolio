@@ -515,7 +515,7 @@ img {
 }
 
 /* responsive design */
-@media (max-width: 900px) {
+@media (max-width:900px) {
     .nav-menu .fa-solid {
         display: block;
         color: #86f51e;
@@ -598,50 +598,37 @@ img {
         font-size: 20px;
     }
 
-    .bottom-left .short-desc {
-        font-size: 16px;
-        padding-right: 6%;
-    }
+}
+.bottom-left .short-desc {
+    font-size: 18px;
+    padding-right: 20%;
+}
 
-    .bottom-left .btn-resume {
-        font-size: 14px;
-        padding: 8px 12px;
-    }
+.about-left img {
+    width: 80%;
+}
 
-    .section-title .sub-title {
-        font-size: 36px;
-    }
+.about-right .tab-links {
+    margin-right: 30px;
+    font-size: 20px;
+}
 
-    .section-title .title {
-        font-size: 20px;
-    }
+.about-right .tab-contents ul li,
+.about-right .tab-contents ul li span {
+    font-size: 18px;
+}
 
-    .about-left img {
-        width: 80%;
-    }
+#contact .content {
+    flex-wrap: wrap;
+}
 
-    .about-right .tab-links {
-        margin-right: 30px;
-        font-size: 20px;
-    }
+.content .contact-left,
+.content .contact-right {
+    flex-basis: 100%;
+}
 
-    .about-right .tab-contents ul li,
-    .about-right .tab-contents ul li span {
-        font-size: 18px;
-    }
-
-    #contact .content {
-        flex-wrap: wrap;
-    }
-
-    .content .contact-left,
-    .content .contact-right {
-        flex-basis: 100%;
-    }
-
-    .content .vl {
-        display: none;
-    }
+.content .vl {
+    display: none;
 }
 
 @media (max-width: 450px) {
@@ -653,50 +640,37 @@ img {
         font-size: 18px;
     }
 
-    .bottom-left .short-desc {
-        font-size: 16px;
-        padding-right: 6%;
-    }
+}
+.bottom-left .short-desc {
+    font-size: 16px;
+    padding-right: 6%;
+}
 
-    .bottom-left .btn-resume {
-        font-size: 14px;
-        padding: 8px 12px;
-    }
+.bottom-left .btn-resume {
+    font-size: 14px;
+    padding: 8px 12px;
+}
 
-    .section-title .sub-title {
-        font-size: 36px;
-    }
+.section-title .sub-title {
+    font-size: 36px;
+}
 
-    .section-title .title {
-        font-size: 20px;
-    }
+.section-title .title {
+    font-size: 20px;
+}
 
-    .about-left img {
-        width: 80%;
-    }
+.about-left img {
+    width: 80%;
+}
 
-    .about-right .tab-links {
-        margin-right: 25px;
-        font-size: 18px;
-    }
+.about-right .tab-links {
+    margin-right: 25px;
+    font-size: 18px;
+}
 
-    .about-right .tab-contents ul li,
-    .about-right .tab-contents ul li span {
-        font-size: 16px;
-    }
-
-    #contact .content {
-        flex-wrap: wrap;
-    }
-
-    .content .contact-left,
-    .content .contact-right {
-        flex-basis: 100%;
-    }
-
-    .content .vl {
-        display: none;
-    }
+.about-right .tab-contents ul li,
+.about-right .tab-contents ul li span {
+    font-size: 16px;
 }
 
 /* Orientation Adjustments */
